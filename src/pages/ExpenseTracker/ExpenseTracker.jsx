@@ -56,7 +56,7 @@ const ExpenseTracker = () => {
   };
 
   return (
-    <div className={`${theme === "light" ? "bg-gradient-to-r from-blue-500 to-purple-500" : "bg-gradient-to-r from-black to-blue-900"} h-lvh`}>
+    <div className={`${theme === "light" ? "bg-gradient-to-r from-blue-500 to-purple-500" : "bg-gradient-to-r from-black to-blue-900"} h-full`}>
         <div className={`container mx-auto p-4 relative `}>
       <button onClick={toggleTheme} className="absolute top-7 right-6">
         {theme !== "dark" ? (
